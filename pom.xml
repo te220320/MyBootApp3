@@ -8,10 +8,11 @@
 		<version>3.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>mybootapp3</artifactId>
+	<groupId>jp.te4a.spring.boot.myapp5</groupId>
+	<artifactId>mybootapp5</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mybootapp3</name>
+	<packaging>jar</packaging>
+	<name>MyBootApp5</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -33,6 +34,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+		<dependency>
+    		<groupId>org.apache.tomcat.embed</groupId>
+    		<artifactId>tomcat-embed-jasper</artifactId>
+    		<version>10.1.41</version>
 		</dependency>
 
 		<dependency>
