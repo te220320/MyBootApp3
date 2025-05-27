@@ -11,9 +11,9 @@
  <h1>Index Page</h1>
  <p>this is sample page for Spring Boot!</p>
  <p>${msg}</p>
-    <form method="post" action="/post">
-        <input type="text" name="textl">
-        <input type="submit">
+    <form action="/post" method="post">
+        <input type="text" name="text1">
+        <input type="submit" value="送信">
     </form>
  </body>
  </html>
